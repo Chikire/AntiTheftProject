@@ -7,7 +7,9 @@ import os
 import time
 import board
 import adafruit_dht
-import pyrebase
+#import pyrebase
+import firebase_admin
+from firebase_admin import credentials, storage, db as dtb
 import RPi.GPIO as GPIO
 import secrets
 import yagmail
